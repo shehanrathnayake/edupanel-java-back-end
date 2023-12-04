@@ -19,8 +19,6 @@ import java.io.InputStream;
 @PropertySource("classpath:/application.properties")
 public class WebRootConfig {
 
-
-
     @Bean
     public HikariDataSource dataSource(Environment env) {
         HikariConfig config = new HikariConfig();
